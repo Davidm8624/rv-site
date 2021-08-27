@@ -1,6 +1,6 @@
 8/27
 
-Daniel:
-David:
-Reid:
+Daniel: made a version of the wireframe, made a RV logo
+David: created -the react app, created the diary, made the github repository.
+Reid: made a version of the wireframe for phone and table, made a cuctus in winter clothing logo.
 
