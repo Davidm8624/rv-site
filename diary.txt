@@ -9,7 +9,15 @@ Reid: made a version of the wireframe for phone and table, made a cactus in wint
 
 8/30
 
+Daniel: got the img/logos to work, made basic divs and helped reid
+David: removed junk, worked with imports and broken json files -_- helped reid
+Reid: got helped and added divs
+
+-basic site up, no content exept placeholder images rn, empty divs
+
+
+8/31
+
 Daniel:
 David:
-Reid:
-
+reid:
