@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { links, socials } from "../util/consts";
-import { FaHamburger } from "react-icons/fa";
-import logo from "../util/logo.svg";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
