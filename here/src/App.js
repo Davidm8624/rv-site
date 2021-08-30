@@ -1,8 +1,13 @@
-import logo from '../src/logo.png'
+import React, { useState, useEffect } from "react";
+import logo from "../src/logo.png";
 
-function App() {
+const App = () => {
   return (
-    <App />
+    <div>
+      <p>
+        Test
+      </p>
+    </div>
   );
 }
 
