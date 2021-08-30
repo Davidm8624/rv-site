@@ -1,12 +1,9 @@
-import React, { useState, useEffect } from "react";
-import logo from "../src/logo.png";
+import React from "react";
 
 const App = () => {
   return (
     <div>
-      <p>
-        Test
-      </p>
+      <img src="images/logo.jpg" alt="logo" />
     </div>
   );
 }
