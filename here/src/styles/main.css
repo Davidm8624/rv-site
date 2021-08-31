@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 a *,
 *::after,
 *::before {
@@ -237,7 +238,7 @@ h4 {
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background: #621e76;
+  background: rgba(146, 25, 25, 0.877);
   color: #222;
   line-height: 1.5;
   font-size: 0.875rem;
@@ -285,7 +286,7 @@ main {
 }
 
 .btn {
-  background: #ac3bce;
+  background: #ce3b3b;
   display: inline-block;
   width: 100%;
   padding: 0.25rem 0.5rem;
@@ -304,11 +305,20 @@ main {
   height: 0.25rem;
   margin-left: auto;
   margin-right: auto;
-  background: #ac3bce;
+  background: #ce3b3b;
+}
+
+.frosted {
+  background: rgba(175, 189, 202, 0.7);
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 0.25rem;
 }
 
 .navbar {
-  background: #fff;
+  background: #E3C184;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 .navbar .nav-center .nav-header {
@@ -320,7 +330,7 @@ main {
 }
 .navbar .nav-center .nav-toggle {
   font-size: 1.5rem;
-  color: #ac3bce;
+  color: #ce3b3b;
   background: transparent;
   border-color: transparent;
   transition: all 0.5s linear;
@@ -340,8 +350,8 @@ main {
   height: auto;
 }
 .navbar .nav-center .links li {
-  color: #4b5e71;
-  font-size: 1rem;
+  color: #761e1e;
+  font-size: 1.25rem;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
   display: block;
@@ -349,25 +359,19 @@ main {
   transition: all 0.5s linear;
   position: relative;
 }
-.navbar .nav-center .links li:hover {
-  background: #deb1ec;
-  color: #ac3bce;
+.navbar .nav-center .links li a {
+  color: #eb4747;
+  text-align: center;
+}
+.navbar .nav-center .links li a:hover {
+  background: rgba(221, 120, 120, 0.7);
+  color: #fff;
   padding-left: 1.5rem;
+  border-radius: 0.25rem;
+  transition: 0.5s ease-out all;
 }
-.navbar .nav-center .links li:hover::after {
+.navbar .nav-center .links li a:hover::after {
   width: 100%;
-}
-.navbar .nav-center .links li::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  bottom: 0;
-  width: 0;
-  height: 3px;
-  background: #ac3bce;
   transition: 1s ease-out all;
 }
 .navbar .nav-center .social-icons {
@@ -394,7 +398,7 @@ main {
     padding: 1rem;
   }
   .navbar .nav-center .logo {
-    height: 40px;
+    height: 100px;
   }
   .navbar .nav-center .nav-header {
     padding: 0;
@@ -409,6 +413,7 @@ main {
     display: flex;
   }
   .navbar .nav-center .links li {
+    font-family: "Titan One", cursive;
     padding: 0;
     margin: 0 0.5rem;
   }
@@ -416,15 +421,7 @@ main {
     padding: 0;
     background: transparent;
   }
-  .navbar .nav-center .social-icons {
-    display: flex;
-  }
-  .navbar .nav-center .social-icons a {
-    margin: 0 0.5rem;
-    color: #ac3bce;
-    transition: all 0.5s linear;
-  }
-  .navbar .nav-center .social-icons a:hover {
-    color: #d295e4;
+  .navbar .nav-center .links li:visited {
+    color: #972626;
   }
 }
