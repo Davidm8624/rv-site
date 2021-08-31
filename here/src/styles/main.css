@@ -267,9 +267,8 @@ main {
   }
 }
 .container {
-  width: 90vw;
+  width: 100%;
   margin: 5rem auto;
-  background: #fff;
   border-radius: 0.25rem;
   padding: 2.5rem 2rem;
   max-width: 920px;
@@ -278,10 +277,14 @@ main {
   grid-gap: 1rem 2rem;
   gap: 1rem 2rem;
 }
-.container h3 {
+.container h2 {
   text-align: left;
   line-height: 1.2;
   font-weight: 500;
+}
+.container p {
+  color: #222;
+  font-size: 1.5rem;
 }
 
 .btn {
@@ -423,4 +426,4 @@ main {
   .navbar .nav-center .links li:visited {
     color: #972626;
   }
-}/*# sourceMappingURL=main.css.map */
+}

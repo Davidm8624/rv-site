@@ -6,10 +6,10 @@ const App = () => {
   <main>
     <div>
       <Navbar/>
+    </div>
       <main className="frosted">
         
-      </main>
-    </div>
+    
     <container className='container'>
       <h2 className='title'>About Me</h2>
       <p>Nisi ullamco sit ex exercitation incididunt nulla laborum est excepteur. Lorem labore ad consequat eu est aliqua do elit et tempor dolore nulla voluptate et. Consequat mollit cupidatat voluptate esse qui ex esse est deserunt fugiat ut occaecat officia est.</p>
@@ -22,6 +22,7 @@ const App = () => {
       <h2 className='title'>Contact</h2>
       <p>Quis laborum et non non sint aliqua deserunt mollit duis ex eiusmod.Irure do sit aliquip culpa sit.</p>
     </container>
+  </main>
   </main>
   
   );

@@ -19,21 +19,24 @@
 
 
 .container {
-  width: 90vw;
+  width: 100%;
   margin: 5rem auto;
-  background: $white;
+    // background: hsla(209, 20%, 74%, 0.70);
   border-radius: $radius;
   padding: 2.5rem 2rem;
   max-width: 920px;
   display: grid;
   grid-template-columns: 250px 1fr;
-
   grid-gap: 1rem 2rem;
   gap: 1rem 2rem;
-  h3{
+  h2{
     text-align: left;
     line-height: 1.2;
     font-weight: 500;
+  }
+  p{
+    color: $black;
+    font-size: 1.5rem;
   }
 }
 
