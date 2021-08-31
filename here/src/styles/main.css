@@ -246,7 +246,6 @@ body {
 
 main {
   min-height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -424,4 +423,4 @@ main {
   .navbar .nav-center .links li:visited {
     color: #972626;
   }
-}
+}/*# sourceMappingURL=main.css.map */
