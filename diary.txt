@@ -18,6 +18,6 @@ Reid: got helped and added divs
 
 8/31
 
-Daniel:
-David:
-reid:
+Daniel: created styles for navbar. style the main 
+David: 
+reid: finshed divs, mixed basic styling added background image for others 
