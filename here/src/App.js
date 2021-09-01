@@ -9,6 +9,7 @@ const App = () => {
     </div>
       <main className="frosted">
         
+        
     
     <container className='container'>
       <h2 className='title'>About Me</h2>
