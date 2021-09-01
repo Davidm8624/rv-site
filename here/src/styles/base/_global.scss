@@ -66,8 +66,17 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   // background: rgba(146, 25, 25, 0.877);
   background-image: url(https://i.postimg.cc/GpyB8n0w/monument-valley-road.jpg);
-  background-size: cover;
+  background-size: contain;
+  // background-size:auto;
+
   background-repeat: no-repeat;
+<<<<<<< HEAD
+=======
+  background-position: center;
+  background-position-y: top;
+  height: 100%;
+  
+>>>>>>> main
     // background-image: url(../monument_valley_road.jpg);
   color: $black;
   line-height: 1.5;
@@ -82,5 +91,9 @@ main {
   // display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
+=======
+  // position: top;
+>>>>>>> main
 }
 

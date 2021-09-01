@@ -241,6 +241,12 @@ body {
   background-image: url(https://i.postimg.cc/GpyB8n0w/monument-valley-road.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+<<<<<<< HEAD
+=======
+  background-position: center;
+  background-position-y: top;
+  height: 100%;
+>>>>>>> main
   color: #222;
   line-height: 1.5;
   font-size: 0.875rem;
@@ -302,7 +308,7 @@ main {
   color: #fff;
   letter-spacing: 0.1rem;
   border-color: transparent;
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 1.2rem;
   cursor: pointer;
 }
@@ -319,8 +325,8 @@ main {
   background: rgba(175, 189, 202, 0.95);
   width: 65%;
   margin: 0 auto;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   border-radius: 0.25rem;
 }
 
@@ -362,7 +368,7 @@ main {
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .navbar .nav-center .nav-toggle {
   font-size: 1.5rem;
@@ -495,4 +501,8 @@ footer ul li a:hover {
 footer ul li a:hover::after {
   width: 100%;
   transition: 1s ease-out all;
+<<<<<<< HEAD
 }
+=======
+}/*# sourceMappingURL=main.css.map */
+>>>>>>> main
