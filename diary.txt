@@ -26,6 +26,8 @@ Reid: finshed divs, mixed basic styling added background image for others
 
 9/1
 
-Daniel:
-David:
-Reid:
+Daniel: added and made footer, added icon, edited navbar.
+David: made and fixed background, styled the page for both desktop and mobile.
+Reid: changed layout and added bullet points for services and made it change for mobile.
+
+-only neededs finishing touches
