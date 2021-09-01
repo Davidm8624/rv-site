@@ -313,7 +313,7 @@ main {
 }
 
 .frosted {
-  background: rgba(175, 189, 202, 0.7);
+  background: rgba(175, 189, 202, 0.95);
   width: 65%;
   margin: 0 auto;
   margin-top: 3rem;
@@ -428,4 +428,4 @@ main {
   .navbar .nav-center .links li:visited {
     color: #972626;
   }
-}/*# sourceMappingURL=main.css.map */
+}
