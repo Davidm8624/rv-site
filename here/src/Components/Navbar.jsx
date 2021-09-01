@@ -29,15 +29,15 @@ const Navbar = () => {
           <button className="nav-toggle" onClick={toggleLinks}>
           <GiHamburgerMenu />
           </button>
-         
+        
         </div>
         <div className={`links-container ${showLinks && "show"}`}>
           <ul className="links">
 
-                  <li><a href="#">Home</a></li>
-                  <li><a href="about">About Me</a></li>
-                  <li><a href="services">Services</a></li>
-                  <li><a href="contact">Contact Me</a></li>
+                  <li><a href="">Home</a></li>
+                  <li><a href="#aboutSection">About Me</a></li>
+                  <li><a href="#servicesSection">Services</a></li>
+                  <li><a href="#contactSection">Contact Me</a></li>
 
           </ul>
         </div>
