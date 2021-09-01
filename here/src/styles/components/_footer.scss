@@ -1,0 +1,45 @@
+@use '../themes/defaultTheme' as *;
+@use '../util/variables' as *;
+@use '../util/mixins' as *;
+
+footer{
+  background: #E3C184;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+  p{
+    color: black;
+  }
+  h3{
+    color: #eb4747;
+  }
+  ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    li{
+      font-size: 25px;
+      justify-content: space-between;
+      margin-left: 20px;
+      a{
+        
+        &:visited{
+          color: $black;
+        }
+        &:hover {
+          color: $white;
+          // background: rgba(255, 255, 255, 0.55);
+          // padding-left: 1.5rem;
+          // padding-right: 1.5rem;
+          border-radius: $radius;
+          transition: .5s ease-out all;
+          &::after{
+            width: 100%;
+            transition: 1s ease-out all;
+          }
+        }
+      }
+    }
+  }
+}
