@@ -19,26 +19,43 @@
 
 
 .container {
-  width: 100%;
-  margin: 5rem auto;
-    // background: hsla(209, 20%, 74%, 0.70);
-  border-radius: $radius;
+  // width: 100%;
+  // margin: 5rem auto;
+  //   // background: hsla(209, 20%, 74%, 0.70);
+  // border-radius: $radius;
   padding: 2.5rem 2rem;
-  max-width: 920px;
+  // max-width: 920px;
   display: grid;
-  grid-template-columns: 250px 1fr;
-  grid-gap: 1rem 2rem;
-  gap: 1rem 2rem;
+  // grid-template-columns: 250px 1fr;
+  // grid-gap: 1rem 2rem;
+  // gap: 1rem 2rem; 
+  // text-align: center;
+
   h2{
     text-align: left;
     line-height: 1.2;
-    font-weight: 500;
+    font-weight: 400;
+    text-align: center;
+
   }
   p{
     color: $black;
+    font-size: 1rem;
+  padding: 1rem 1rem;
+  text-align: center;
+
     font-size: 1.15rem;
   }
+  ol,ul,li{
+    text-align: left;
+    font-size: .9rem;
+    // position: relative;
+    // left: 10%;
+    margin: 0 auto;
+    width: 220px;
+  }
 }
+
 
 .btn{
   background: $primary-4;
@@ -68,6 +85,37 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
   border-radius: $radius;
+}
+
+@include tablet{
+  .container {
+    padding: 1.5rem 2rem;
+    display: grid;
+    text-align: center;
+  
+    h2{
+      text-align: left;
+      line-height: 1.2;
+      font-weight: 500;
+      text-align: center;
+  
+    }
+    p{
+      color: $black;
+      font-size: 1.5rem;
+    padding: 2.5rem 2rem;
+  
+    }
+    ol,ul,li{
+    text-align: left;
+    font-size: 1.4rem;
+    // position: relative;
+    // left: 11%;
+    margin: 0 auto;
+    width: 500px;
+  }
+  }
+  
 }
 
 .person{
