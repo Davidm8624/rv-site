@@ -52,6 +52,12 @@ const Navbar = () => {
 
         </ul>
       </div>
+
+
+
+
+
+      <hr></hr>
     </nav>
   );
 };

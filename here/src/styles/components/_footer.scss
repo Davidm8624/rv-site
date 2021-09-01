@@ -4,15 +4,34 @@
 
 footer{
   background: #E3C184;
-  height: 200px;
+  height: 10%;
   width: 100%;
   text-align: center;
   padding-top: 1rem;
+  padding-bottom: 2rem;
+  hr{
+    width: 5%;
+    margin: auto;
+    border: .5px black solid;
+  }
+  a{
+    color: $black;
+    &:visited{
+      color: $black;
+    }
+  }
+  .other-website{
+    text-decoration: underline;
+  }
   p{
     color: black;
+    font-size: 1rem;
   }
   h3{
     color: #eb4747;
+    text-decoration: underline;
+    text-decoration-color: black;
+    margin-bottom: 2rem;
   }
   ul{
     display: flex;

@@ -469,16 +469,35 @@ main {
 }
 footer {
   background: #E3C184;
-  height: 200px;
+  height: 10%;
   width: 100%;
   text-align: center;
   padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+footer hr {
+  width: 5%;
+  margin: auto;
+  border: 0.5px black solid;
+}
+footer a {
+  color: #222;
+}
+footer a:visited {
+  color: #222;
+}
+footer .other-website {
+  text-decoration: underline;
 }
 footer p {
   color: black;
+  font-size: 1rem;
 }
 footer h3 {
   color: #eb4747;
+  text-decoration: underline;
+  text-decoration-color: black;
+  margin-bottom: 2rem;
 }
 footer ul {
   display: flex;
