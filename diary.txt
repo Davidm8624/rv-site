@@ -10,7 +10,7 @@ Reid: made a version of the wireframe for phone and table, made a cactus in wint
 8/30
 
 Daniel: got the img/logos to work, made basic divs and helped reid
-David: removed junk, worked with imports and broken json files -_- helped reid
+David: removed junk, worked with imports and broken json files and helped reid
 Reid: got helped and added divs
 
 -basic site up, no content exept placeholder images rn, empty divs
@@ -19,5 +19,13 @@ Reid: got helped and added divs
 8/31
 
 Daniel: created styles for navbar. style the main 
-David: 
-reid: finshed divs, mixed basic styling added background image for others 
+David: fixed errors, linked stuff up and changed a few things with the style
+Reid: finshed divs, mixed basic styling added background image for others 
+
+-site done, just need to make it pretty
+
+9/1
+
+Daniel:
+David:
+Reid:
