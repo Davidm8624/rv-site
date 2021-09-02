@@ -307,6 +307,8 @@ main {
 
 .container {
   padding: 2.5rem 2rem;
+  border: #778796 solid 4px;
+  border-radius: 5%;
   display: grid;
 }
 .container h2 {

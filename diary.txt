@@ -31,3 +31,11 @@ David: made and fixed background, styled the page for both desktop and mobile.
 Reid: changed layout and added bullet points for services and made it change for mobile.
 
 -only neededs finishing touches
+
+9/2
+
+Daniel: changed background for a more hd image
+David: added images and formed to fit
+Reid: upgrade website style
+
+-we should be finshed
