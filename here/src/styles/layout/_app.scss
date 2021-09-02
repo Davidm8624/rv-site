@@ -16,7 +16,12 @@
   }
 }
 
-
+main{
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
 
 .container {
   // width: 100%;
@@ -80,10 +85,6 @@
 
 .frosted{
   background: hsla(209, 20%, 74%, .95);
-  width: 65%;
-  margin: 0 auto;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
   border-radius: $radius;
 }
 
