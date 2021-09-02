@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <img src="./images/logo.jpg" alt="Logo" className="logo" />
+          <img src="./images/Briggs_transparent.png" alt="Logo" className="logo" />
           <button className="nav-toggle" onClick={toggleLinks}>
           <GiHamburgerMenu />
           </button>
@@ -35,9 +35,9 @@ const Navbar = () => {
           <ul className="links">
 
                   <li><a href="">Home</a></li>
-                  <li><a href="#aboutSection">About Me</a></li>
-                  <li><a href="#servicesSection">Services</a></li>
-                  <li><a href="#contactSection">Contact Me</a></li>
+                  <li><a href="#about">About Me</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#contact">Contact Me</a></li>
 
           </ul>
         </div>

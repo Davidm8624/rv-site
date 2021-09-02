@@ -129,7 +129,27 @@ main{
 }
 
 .person{
-  max-width: 150px;
-  max-height: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
+
+.phone{
+  position: relative;
+  height: 250px;
+  margin: 0 auto;
+}
+
+main,article{
+  overflow: hidden;
+}
+
+.contact-ways{
+  text-decoration: underline;
+  &:hover{
+    color: #eb4747;
+    transition: .5s ease-out all;
+  }
+}
+
+
 
