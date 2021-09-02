@@ -330,9 +330,13 @@ main {
 
 @media only screen and (min-width: 768px) {
   .container {
-    padding: 1.5rem 2rem;
     display: grid;
     text-align: center;
+    border: #778796 solid 4px;
+    border-radius: 5%;
+    position: relative;
+    left: 5%;
+    width: 90%;
   }
   .container h2 {
     text-align: left;
@@ -342,12 +346,12 @@ main {
   }
   .container p {
     color: #222;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 2.5rem 2rem;
   }
   .container ol, .container ul, .container li {
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     margin: 0 auto;
     width: 500px;
   }

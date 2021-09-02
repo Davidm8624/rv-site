@@ -89,26 +89,35 @@
 
 @include tablet{
   .container {
-    padding: 1.5rem 2rem;
+    // padding: 1.5rem 2rem ;
     display: grid;
     text-align: center;
+    border: rgba(119, 135, 150, ) solid 4px;
+    border-radius: 5%;
+    // border-top: transparent;
+    // border-spacing: 20px;
+    position: relative;
+    left: 5%;
+    width: 90%;
+    // line-break: auto;
+    // padding-top: 20px;
   
     h2{
       text-align: left;
       line-height: 1.2;
       font-weight: 500;
       text-align: center;
-  
+
     }
     p{
       color: $black;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     padding: 2.5rem 2rem;
   
     }
     ol,ul,li{
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     // position: relative;
     // left: 11%;
     margin: 0 auto;
@@ -122,3 +131,4 @@
   max-width: 150px;
   max-height: 200px;
 }
+
